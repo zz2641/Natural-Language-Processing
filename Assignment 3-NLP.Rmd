@@ -1,17 +1,17 @@
 ---
 title: "Assignment 3 - NLP"
-author: "Charles Lang"
-date: "2/23/2017"
+author: "Zhongyuan"
+date: "3/23/2020"
 output: html_document
 ---
 
 ## Libraries
 ```{r}
-#Make sure you install and load the following libraries
+#load the following libraries
 
-library(tm)
-library(SnowballC)
-library(wordcloud)
+library(tm) #text mining package
+library(SnowballC)# for stemming Porters
+library(wordcloud) 
 library(ggplot2)
 library(dplyr)
 library(tidyr)
@@ -35,7 +35,7 @@ D2 <- read.csv("week-list.csv", header = TRUE)
 ```{r}
 D1$Notes2 <- gsub("<.*?>", "", D1$Notes)
 D1$Notes2 <- gsub("nbsp", "" , D1$Notes2)
-D1$Notes2 <- gsub("nbspnbspnbsp", "" , D1$Notes2) # There's someting wrong with the data itself. Needed to be changed
+D1$Notes2 <- gsub("nbspnbspnbsp", "" , D1$Notes2) # There's something wrong with the data itself. Needed to be changed
 ```
 
 ## Step 2 - Process text using the tm package
@@ -84,7 +84,7 @@ corpus <- tm_map(corpus, removePunctuation, lazy=TRUE)
 What processing steps have you conducted here? Why is this important? Are there any other steps you should take to process your text before analyzing?
 
 ### Comments:
- # So far, we converted the dataframe with original texts into a file of corpus. Corpus is the unit that computers can process, and later perform parsing. In the original files, notes are written in a natural languarage patterns. Thus, the following steps of eliminating spaces, punctuation, and numbers; lowercasing all the letters; removing stopwords,words that do not make any practical sense.files.  
+ # So far, we converted the dataframe with original texts into a file of corpus. Corpus is the unit that computers can process, and later perform parsing. In the original files, notes are written in a natural language patterns. Thus, the following steps of eliminating spaces, punctuation, and numbers; lowercasing all the letters; removing stopwords,words that do not make any practical sense.files.  
 ## Step 3 - Find common words
 ```{r}
 #The tm package can do some simple analysis, like find the most common words
@@ -103,9 +103,13 @@ ColorBrewer is a useful tool to help you choose colors for visualizations that w
 #Define the colors the cloud will use
 col=brewer.pal(4,"Dark2")
 #Generate cloud
+png()
 wordcloud(corpus, min.freq=500, scale=c(5,2),rot.per = 0,
           random.color=F, max.word=25, random.order=F,colors=col)
+dev.off()
 
+wordcloud(corpus, min.freq=500, scale=c(5,2),rot.per = 0,
+          random.color=F, max.word=25, random.order=F,colors=col)
 #rot.per:proportion words with 90 degree rotation
 ```
 
