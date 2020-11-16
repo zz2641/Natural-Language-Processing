@@ -1,4 +1,4 @@
-![](rsm-tmt-nlp.png)
+![](rsm-tmt-nlp.jpg)
 
 # Natural Language Processing
 
