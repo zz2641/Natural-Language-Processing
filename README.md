@@ -9,11 +9,21 @@ The use of natural language processing has exploded over the last decade. Appilc
 * Understand and apply a latent dirichlet allocation (LDA) to a set of documents
 
 # Pacakge used in Python
-`f` 
+`pandas`: data cleaning and wrangling <br>
+`matplotlib`: plotting
+`re` : Regular Expression
+`sys` : System
+`os` : Handle list of documents
+`nltk.corpus`: import corpus: stopwords
+`wordcloud.WordCloud` : wordcloud
+`textblob.TextBlob` : Sentiment analysis
+`sklearn.feature_extraction.text.CountVectorizer` :Tokenization
+`sklearn.decomposition.LatentDirichletAllocation` :LDA 
+
 
 ## Tasks for this unit
 
-In this unit you will completing three main tasks. Processing a set of documents, running a sentiment analysis of thise documents and then generating topic models of those documents. The documents we will be using will be student notes that the class HUDK4050 made last semester. As background to this task please read over the follwing materials and watch the methodological videos. If you find any other useful materials please add them under Additional Materials at the end of the this page and pull request the change back to this repo.
+In this project we have completed three main tasks. Processing a set of documents, running a sentiment analysis of thise documents and then generating topic models of those documents. The documents we were using are student notes that the class HUDK4050 made 2019 fall semester. As background to this task please read over the follwing materials and watch the methodological videos. 
 
 ## Readings
 
