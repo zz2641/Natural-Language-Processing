@@ -26,10 +26,16 @@ In this project we have completed three main tasks. Processing a set of document
 
 ## Result
 <img src="./p1.png" alt="Editor" width="700">
+From the wordcloud, we could quickly capture the core heart of HUDK 4050: Data, Educatoin, Model and Analysis<br>
+<br>
 <img src="./p2.png" alt="Editor" width="700">
+-By week, most of the weekly sentiments are slightly positive and more inclined to be fact than opinion, from which ,we could assume that students were rephrasing the content in the notes instead of building up their own understanding and own opinionated perspectives. **This suggests that teachers could encourage students to be more of an active reader by putting in more of their thoughts based on the reading in the following semsters**. <br><br>There are two outlier weeks, which are week 11 and week 13 with theme of Prediction and Detection, and Model evaluation respectively. The sentiments of the notes in these two weeks score slightly below zero regarding positivity, **probably indicating some hardship doing prediction and detection and model evaluation in educational setting**. However, the sentiment is so weak that we shall not pay too much attention to that.<br>
+<br>
 <img src="./p3.png" alt="Editor" width="700">
+-The polarity remains constant close to the neutral line, slightly positive in the comments except for week 13. This week, Model evaluation, students have a lot of emotion to express in their notes, to some extent, slightly negative.<br><br>-In most of the week, the two lines, polarity and subjectivity rise and drop parallelly. Nontheless, starting from week 10, lines went in oppositie direction--- sujectivity went up and down later, while polarity went down first and then up.<br><br>This tells us that starting from week either the time factor or the themes or both affect the fluctuation of the sentiment.In week 13, the sujectivity has reached the peak whereas polarity declined to the lowest point. This reinforce the statement above that week 13 is sucjectively negative. **Students's expecation about prospect of learning analytics has been discouraged or disappointed by the hardship in the real world application--prediction, feature selection and model evaluation**.<br>
+<br>
 <img src="./p4.png" alt="Editor" width="900">
-
+-After trying several numbers of topic in the LDA model, we have concluded that **8** is the optimal number for modeling these weekly notes.<br> - The comaprsion table also gives us a constrasting view of how the notes reflect the weekly themes. The result is quite promising, **7 out of the 12** pre-set themes are 100% matched with the model outcome. The rest of the themes (5) <ins>although are not matched perfectly, the assigned outcome could still be valid due to the overlapped content and dicusssion direction.</ins>
 
 ## Readings
 
