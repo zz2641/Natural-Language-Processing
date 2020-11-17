@@ -26,7 +26,7 @@ In this project we have completed three main tasks. Processing a set of document
 
 ## Result
 <img src="./p1.png" alt="Editor" width="700">
-From the wordcloud, we could quickly capture the core heart of HUDK 4050: Data, Educatoin, Model and Analysis<br>
+**From the wordcloud, we could quickly capture the core heart of HUDK 4050: Data, Educatoin, Model and Analysis**<br>
 <br>
 <img src="./p2.png" alt="Editor" width="700">
 -By week, most of the weekly sentiments are slightly positive and more inclined to be fact than opinion, from which ,we could assume that students were rephrasing the content in the notes instead of building up their own understanding and own opinionated perspectives. **This suggests that teachers could encourage students to be more of an active reader by putting in more of their thoughts based on the reading in the following semsters**/. <br><br>There are two outlier weeks, which are week 11 and week 13 with theme of Prediction and Detection, and Model evaluation respectively. The sentiments of the notes in these two weeks score slightly below zero regarding positivity, **probably indicating some hardship doing prediction and detection and model evaluation in educational setting**. However, the sentiment is so weak that we shall not pay too much attention to that.<br>
