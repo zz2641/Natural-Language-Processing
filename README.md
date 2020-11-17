@@ -25,7 +25,7 @@ The use of natural language processing has exploded over the last decade. Appilc
 In this project we have completed three main tasks. Processing a set of documents, running a sentiment analysis of thise documents and then generating topic models of those documents. The documents we were using are student notes that the class HUDK4050 made 2019 fall semester. As background to this task please read over the follwing materials and watch the methodological videos. 
 
 ## Result
-![](./p1.png =100x20)
+![](./pic/p1.png =100x20)
 ![](p2.png)
 ![](p3.png)
 ![](p4.png)
