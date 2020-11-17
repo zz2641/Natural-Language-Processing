@@ -28,7 +28,7 @@ In this project we have completed three main tasks. Processing a set of document
 <img src="./p1.png" alt="Editor" width="700">
 <img src="./p2.png" alt="Editor" width="700">
 <img src="./p3.png" alt="Editor" width="700">
-<img src="./p4.png" alt="Editor" width="700">
+<img src="./p4.png" alt="Editor" width="900">
 
 
 ## Readings
