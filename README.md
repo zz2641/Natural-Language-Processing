@@ -10,20 +10,25 @@ The use of natural language processing has exploded over the last decade. Appilc
 
 # Pacakge used in Python
 `pandas`: data cleaning and wrangling <br>
-`matplotlib`: plotting
-`re` : Regular Expression
-`sys` : System
-`os` : Handle list of documents
-`nltk.corpus`: import corpus: stopwords
-`wordcloud.WordCloud` : wordcloud
-`textblob.TextBlob` : Sentiment analysis
-`sklearn.feature_extraction.text.CountVectorizer` :Tokenization
+`matplotlib`: plotting <br>
+`re` : Regular Expression <br>
+`os` : Handle list of documents <br>
+`nltk.corpus`: import corpus: stopwords <br>
+`wordcloud.WordCloud` : wordcloud <br>
+`textblob.TextBlob` : Sentiment analysis <br>
+`sklearn.feature_extraction.text.CountVectorizer` :Tokenization<br>
 `sklearn.decomposition.LatentDirichletAllocation` :LDA 
 
 
 ## Tasks for this unit
 
 In this project we have completed three main tasks. Processing a set of documents, running a sentiment analysis of thise documents and then generating topic models of those documents. The documents we were using are student notes that the class HUDK4050 made 2019 fall semester. As background to this task please read over the follwing materials and watch the methodological videos. 
+
+## Result
+![](p1.png)
+![](p2.png)
+![](p3.png)
+![](p4.png)
 
 ## Readings
 
@@ -41,11 +46,9 @@ In this project we have completed three main tasks. Processing a set of document
 
 [Knispelis, A. (2016). LDA Topic Models.](https://www.youtube.com/watch?v=3mHy4OSyRf0)
 
-~~[Jurafsky, D. & Manning, C. (2016). What is Sentiment Analysis? Stanford: Palo Alto, CA](https://www.youtube.com/watch?v=sxPBv4Skj98)
-[Knispelis, A. (2016). LDA Topic Models.](https://www.youtube.com/watch?v=3mHy4OSyRf0)~~ 
+## Reference Github
+[nlp-in-python-tutorial](https://github.com/zz2641/nlp-in-python-tutorial/settings)
 
-## Knowledge Check
-Once you have completed all tasks in the unit, please complete the [knowledge check](https://tccolumbia.qualtrics.com/jfe/form/SV_bIchFX8s5M3Fdml).
 
 ## Additional Materials
 
